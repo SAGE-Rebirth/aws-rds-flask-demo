@@ -1,0 +1,17 @@
+create database abhinav;
+
+use database abhinav;
+
+show tables;
+
+CREATE TABLE user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(80) NOT NULL,
+    password VARCHAR(120) NOT NULL
+);
+
+Task for you!!!!
+
+rename table user to User;
+
+delete from user;
